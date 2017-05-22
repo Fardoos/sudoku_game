@@ -1,0 +1,149 @@
+	table
+	{
+		width:600px;
+		border: 2px;
+		background-color: rgb(63, 45, 24);
+		border-radius: 10px;
+		border-style: double;
+		height: 200px;
+		margin-left: 300px;
+		
+	}
+	tr
+	{
+		border: 2px solid rgb(63, 45, 24);
+		width:800px;
+		height: 100px;
+	}
+	td
+	{
+		width:100px;
+		background-color: white;
+		border: 3px;
+		height: 100px;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	td:focus
+	{
+		box-shadow:rgb(200,154,100) 10px 10px 50px inset,rgb(200,154,100) -10px -10px 50px inset;
+		-webkit-transform: scale(1.6);
+	}
+	.move
+	{
+		box-shadow:rgb(200,154,100) 10px 10px 10px inset,rgb(200,154,100) -10px -10px 10px inset;
+	}
+	
+	.valid
+	{
+		background-color:rgb(249, 234, 217);
+	}
+	#time
+	{
+		border: 2px solid black;
+		border-radius:10px;
+		margin-left: 300px;
+		width: 550px;
+		height:20px;
+		margin-bottom: 50px;
+		padding:20px;
+		font-size: 30px;
+		text-align: center;
+		box-shadow:rgb(249, 234, 217) 10px 10px 50px inset,rgb(249, 234, 217) -10px -10px 50px inset;
+	}
+	.checked
+	{
+		background-color:rgb(102, 66, 26);
+		border: 5px;
+		border-radius: 15px;
+		border-color: gray;
+		width: 300px;
+		height: 300px;
+		margin-left: 300px;
+		opacity: 1;
+	}
+	#checked
+	{
+		clear: both;
+		 position: absolute;
+		 visibility: hidden;
+		 background-color:rgb(102, 66, 26);
+		border: 5px;
+		border-radius: 15px;
+		border-color: gray;
+		width:500px;
+		height: 400px;
+		margin-left: 300px;
+		margin-top: 100px;
+	}
+	.button
+	{
+		width: 100px;
+		height: 50px;
+		margin-top: 100px;
+		margin-left: 60px;
+		border: 2px;
+		border-radius: 15px;
+		display: inline;
+		
+
+	}
+	.button:hover
+	{
+		 -webkit-transform: scale(1.2);
+	}
+	p{
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+		
+		
+	}
+		img
+	{
+		width:200px;
+		height:300px;
+		display: inline;
+	}
+	#maindiv
+	{
+		width: 50%;
+		height: 50%;
+		margin-top: 150px;
+		margin-left: 300px;
+		border: 20px;
+		border-radius: 15px;
+		border-style: double;
+box-shadow:rgb(237, 199, 156) 10px 10px 50px inset,rgb(237, 199, 156) -10px -10px 50px inset;
+
+	}
+	.btn
+	{
+		width: 200px;
+		height: 50px;
+		margin-top: 100px;
+		margin-left: 60px;
+		border: 2px;
+		border-radius: 10px;
+		display: inline;
+		
+		text-decoration: none;
+
+
+
+	}
+	.btn:hover
+        {
+
+             -webkit-transform: scale(1.2);
+              box-shadow:rgb(200,154,100) 10px 10px 50px inset,rgb(200,154,100) -10px -10px 50px inset;
+            
+        }
+        #header{
+        	font-size: 30px;
+        	font-weight: bold;
+        	color: rgb(104, 58, 6);
+        	text-align: center;
+        	margin-top: 50px;
+        }
